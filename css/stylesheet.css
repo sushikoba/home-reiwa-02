@@ -1,0 +1,510 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Noto+Serif+JP:wght@400;600;700&display=swap');
+body{
+    font-family: 'Noto Serif JP', serif;
+     text-align: center;
+     color: #333333;
+     letter-spacing: 0.46px;
+}
+a{
+    text-decoration: none;
+    color: rgba(0,0,0,.5);
+}
+a:hover, a:focus{
+    text-decoration: none;
+    color: #333333;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.br-lg{
+    display: none;
+}
+.title, .subtitle span{
+    margin-bottom: 32px;
+    font-size: 30px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.subtitle{
+    font-size: 26px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.about-text p, .about-links,
+.news-title a, .msg-txt, .acs-txt p{
+    line-height: 32px;
+    font-size: 18px;
+    letter-spacing: 0.86px;
+}
+.about-us, .news-container, .acs-container{
+    max-width: 700px; 
+    margin: 0 auto;
+}
+.about-us-title, .about-text, .about-links,
+.row-service, .news,
+.msg-txt, .acs-txt, .group{
+    text-align: left;
+}
+.about-link1, .about-link2,
+.news-title-link, .map-link{
+    display: inline-block;
+    background-color: #95bb76;
+    border-radius: 40px;
+    padding: 8px 14px;
+}
+.about-link1-wrap, .about-link2-wrap, 
+.table td a, .map-link-wra{
+    display: inline-block;
+}
+section{
+    padding-top: 60px;
+}
+.message, .footer-bottom{
+    background-color: #ddeedf;
+ }
+/**************************  HEADER  **********************************/
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+.sp-contact{
+    display: none;
+}
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    font-size: 14px;
+}
+.navbar-light .navbar-brand{
+    color: #95bb76!important;
+}
+.navbar-brand:hover, .navbar-brand:focus{
+    color: #95bb76;
+    opacity: 0.7;
+}
+
+.nav-item {
+    margin-left: 12px;
+}
+
+.navbar{
+    background-color: #F6f6f6;
+    padding: 12px 12px 18px 12px;
+    border-bottom: 1px solid #95bb76;
+    border-radius: 0;
+}
+.navbar-nav{
+     float: right;
+      height: auto;
+}
+#header-contact{
+    background-color:#95bb76;
+    border-radius: 40px;
+    padding: 14px 32px; 
+    display: block;
+    margin-left:12px;
+}
+#header-contact:hover{
+    opacity: 1;
+}
+.dropdown:hover>.dropdown-menu {
+    display: block;
+
+}
+/************  ドロップダウン  **************/
+@media (min-width: 768px){
+.navbar-expand-lg, .navbar-nav, .dropdown-menu {
+    background-color: #f6f6f6;
+    border: 0;
+    -webkit-box-shadow:none;
+    box-shadow: none;
+    }
+    .navbar-nav>li>.dropdown-menu {
+        margin-top: -1px;
+        border: solid 1px #95bb76;
+        border-top: none;
+    }
+    .navbar-nav{
+    position: absolute;
+    bottom: 4px;
+    right: 12px;
+    }
+    .dropdown-menu{
+        position: absolute;
+        padding: 0 8px;
+        top: 100%;
+    }
+    .dropdown-item{
+        text-align: center;
+        display: inline-block;
+        padding: 0 8px 8px 8px;
+    }
+    .dropdown-item img{
+        margin: 0 auto;
+        display: block;
+    }
+    .dropdown-service .dropdown-item{
+        width: 50%;
+    }
+    /************  ドロップダウン写真カラー  **************/
+ header img.gray {
+    -webkit-filter: grayscale(80%);
+    -moz-filter: grayscale(80%);
+    -ms-filter: grayscale(80%);
+    -o-filter: grayscale(80%);
+    filter: grayscale(80%);
+    border-radius: 12px;
+    margin-bottom: 4px;
+    height: 100px;
+    width: auto;
+    }
+    header img.gray:hover{
+        -webkit-filter: grayscale(0);
+        -moz-filter: grayscale(0);
+        -ms-filter: grayscale(0);
+        -o-filter: grayscale(0);
+        filter: grayscale(0);
+        opacity: 0.9;
+     }
+    .dropdown-service-wrap .dropdown-menu{
+        left: -200px;
+    }
+    .dropdown-service{
+        width: 348px;
+    }
+    .dropdown-flex{
+        display: flex;
+        flex-wrap: wrap;
+    }       
+}
+.dropdown-item{
+    color: rgba(0,0,0,.5);
+}
+.dropdown-item:focus, .dropdown-item:hover {
+   color: #41463D;
+}
+.fa-caret-right{
+        margin-left: 8px;
+ }
+.dropdown-menu a:hover,
+.dropdown-menu a:focus{
+        background-color:  #F6f6f6;
+}
+/************  HOVERズーム  **************/
+.nav-item, .about-link1-wrap, .about-link2-wrap, .news-title-link, .map-link-wrap,
+.link-box{
+    transition:transform .3s;
+}
+.nav-item:hover, .about-link1-wrap:hover,
+.about-link2-wrap:hover, .news-title-link:hover, .map-link-wrap:hover,
+.link-box:hover{
+    transform:scale(1.2);
+}
+/**************************  HERO  **********************************/
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 100px;
+    font-family: inherit;
+  }
+  @media screen and (min-width: 768px){
+    .carousel-caption {
+    right: 0%;
+    left: 35%;
+    padding-bottom: 30px;
+    padding-bottom: 30px;
+    padding-left: 5%;
+    top: 30%;
+    bottom: 46%;
+    color: black;
+    opacity: 0.8;
+    text-align: left;
+    background-color: #ffffff;
+    white-space: nowrap;
+    }    
+    .carousel-caption .display-4{
+        line-height: 2.2;
+        letter-spacing: 29px;
+    }
+    .carousel-caption .lead{
+        letter-spacing: 21px;
+    }
+}
+@media screen and (min-width: 768px){
+    .carousel-caption {
+        left: 25%;
+    }
+    .carousel-control-next{
+        z-index: 30;
+    }
+}
+/**************************  ABOUT  **********************************/
+.about{
+    background: url('../img/about-bg.png') no-repeat;
+    background-position: center top;
+    background-size: cover;
+    padding-bottom: 120px;
+}
+.about-us, .news-container, .acs-container{
+    background: #F6f6f6;
+    border-radius:  12px;
+}
+.about-us{
+    border: 2px solid #95bb76;
+}
+.about-link1-wrap{
+    margin-right: 24px;
+}
+.about-links{
+    padding: 18px;
+}
+/**************************  サービス  **********************************/
+.service{
+    padding-bottom: 60px;
+}
+.service-title h1{
+    margin-top: 0;
+}
+.service .row{
+    align-items: center;
+}
+
+hr{
+    border-top: 2px solid #95bb76;
+ }
+ .service .col-md-7,
+ .message .col-md-7{
+     padding-top: 0;
+ }
+.col-md-5 img{
+    width: 100%;
+    border-radius: 12px;
+}
+.service .lead{
+    letter-spacing: 2px;
+    line-height: 1.7;
+}
+.number-icon{
+    color: #95bb76;
+    opacity: 0.5;
+    font-size: 60px;
+    margin-right: 8px;
+}
+.featurette-heading{
+    display: flex;
+    align-items: center;
+}
+    /**************************  ニュース  **********************************/
+.news{
+    background: url('../img/news-bg.jpg') no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding-bottom: 120px;
+}
+.news-container, .acs-container{
+    padding: 40px 0 40px 15px;
+}
+.news-container{
+    display: flex;
+    justify-content: space-between;
+}
+.news-title{
+    margin-bottom: 16px;
+}
+.news-title h2, .acs-title h2{
+    margin-bottom: 18px;
+    margin-top: 0;
+}
+ /******** テーブル *********/
+.table{
+    font-size: 18px;
+    color: inherit;
+    width: 50%;
+}
+.date{
+    font-size: 16px;
+}
+.table>tbody>tr>td ,td{
+    border-top: 0;
+}
+
+/*************************/
+/**************************   ごあいさつ  **********************************/
+.message{
+    padding-bottom: 60px;
+}
+/**************************  アクセス  **********************************/
+.access{
+    background: url("../img/map-bg.jpg") no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding-bottom: 120px;
+}
+.address{
+    margin-bottom: 32px;
+    align-items: center;
+}
+.acs-txt{
+    max-width: 275px;
+    margin: 0 auto;
+}
+.link-box{
+    display: inline-block;
+    position: relative;
+    width: 72px;
+    height: 72px;
+    background-color: #95bb76;
+}
+.link-box i{
+    font-size: 40px;
+    position: absolute;
+    top: 14px;
+}
+.link-box .fa-phone-alt{
+    right: 14px;
+}
+.link-box .fa-file-alt{
+    right: 19px;
+}
+.link-box .fa-building{
+    right: 18px;
+}
+.contact-txt{
+    padding: 4px;
+}
+.contact-txt h3 span{
+    font-size: 14px;
+}
+.box-tel, .box-doc{
+    border-right: 2px solid #95bb76;
+}
+.contact-link-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+.contact-link-box i{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+/**********グループ紹介*************/
+.group-wrapper{
+    padding-bottom: 40px;
+}
+.group h5{
+    padding-bottom: 4px;
+    border-bottom: solid 2px lightgray;
+}
+.group ul{
+    list-style: none;
+}
+.group-item{
+    display:inline-block;
+    position:relative;
+    line-height: 24px;
+}
+/***********リスト下線アニメーション************/
+.group-item::after{
+    content:'';
+    position:absolute;
+    width:100%;
+    transform:scaleX(0);
+    height:2px;
+    bottom:0;
+    left:0;
+    background-color: #95bb76;
+    transform-origin:bottom right;
+    transition:transform .4s cubic-bezier(.86,0,.07,1)
+}
+.group-item:hover::after{
+    transform:scaleX(1);
+    transform-origin:bottom left
+}
+/**************SNSアイコン******************/
+.effect .buttons{
+    display: flex;
+}
+.sns{
+    margin: 32px;
+}
+.effect a {
+      text-decoration: none !important;
+      color: #fff;
+      width: 60px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px;
+      margin-right: 20px;
+      font-size: 25px;
+      overflow: hidden;
+      position: relative;
+}
+.effect i{
+        position: relative;
+        z-index: 3;
+}
+.fb {
+    background-color: #3b5998;;
+}      
+.tw {
+   background-color: #00aced;
+}
+.insta {
+    background-color: #bc2a8d;
+}
+.jaques a {
+      transition: border-top-left-radius 0.1s linear 0s, border-top-right-radius 0.1s linear 0.1s, border-bottom-right-radius 0.1s linear 0.2s, border-bottom-left-radius 0.1s linear 0.3s;
+}      
+.jaques a:hover {
+    border-radius: 50%;
+}
+
+/**************************  フッター  **********************************/
+/*********** 右下固定 ***********/
+.sticky-right{
+    position: fixed;
+    right: 0px;
+    bottom: 12%;
+    background-color: #95bb76;
+    padding: 14px;
+    border-radius: 12px 0 0 12px;
+    z-index: 100;
+}
+.doc-right-box, .ins-right-box{
+    padding: 12px;
+    text-align: right;
+    background-color: #ddeedf;
+    border-radius: 5px;
+    display: block;
+}
+.doc-right-box{
+    margin-bottom: 12px;
+}
+#pageTop{
+    position: fixed;
+    right: 8px;
+    bottom: 8px;
+    z-index: 100;
+    width: 40px;
+    height: 40px;
+    background-color: #95bb76;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+/*****************************/
+.footer-bottom{
+    padding: 80px 0 30px 0;
+    margin-bottom: 0;
+}

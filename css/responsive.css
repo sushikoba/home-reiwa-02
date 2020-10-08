@@ -1,0 +1,206 @@
+@media screen and (max-width: 880px) {
+    .navbar-light .navbar-brand {
+        margin-bottom: 32px;
+    }
+    .navbar{
+        padding: 0px 12px 18px 12px;
+    }
+    .number-icon{
+        font-size: 36px;
+    }
+    .br-lg{
+         display: block;
+    }
+    /**ズーム解除**/
+    .nav-item:hover, .about-link1-wrap:hover,
+    .about-link2-wrap:hover, .news-title-link:hover, .map-link-wrap:hover,
+    .link-box:hover{
+        transform:scale(1.0);
+    }
+
+}
+@media screen and (max-width: 767px) {
+    .title{
+        font-size: 26px;
+    }
+    .subtitle{
+        font-size: 20px;
+        margin: 0 auto 12px;
+    }
+  .row-service p{
+        text-align: center;
+
+    }
+    .about-us, .service .row, .service .col-md-7, .acs-container{
+        padding: 0 15px 8px 15px;
+    }
+     .about-us, .news-container,
+     .message, .acs-container{
+        padding-top: 50px;
+        border-radius: 0;
+        margin-bottom: 0;
+        border: 0;
+    }
+    .about, .news, .access{
+        background-position: center bottom;
+        background-size: contain;
+        padding-top: 0;
+    }
+    .about, .news, .access{
+        padding-bottom: 220px;
+    }
+/*************ヘッダー***************/
+    .navbar-light .navbar-brand {
+        margin-bottom: 0px;
+    }
+    .sp-header-top{
+        display: flex;
+        justify-content: space-between;
+    }
+    .navbar-toggler{
+        display: block;
+        border: 0;
+    }
+    .navbar-toggler:focus{
+        outline: none;
+    }
+    .navbar-collapse{
+        margin-top: 24px;
+    }
+    .navbar-nav{
+        float: inherit;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .navbar{
+        justify-content: center;
+    }
+    .navbar-nav>li>a {
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+    .dropdown-menu {
+        background-color: #ddeedf;
+        border: none;
+        -webkit-box-shadow:none;
+        box-shadow: none;
+        text-align: center;
+        font-size: 14px;
+        }
+    .dropdown-item img{
+        display: none;
+    }
+    .dropdown:hover>.dropdown-menu {
+        display: none;
+    }
+    .nav-item{
+        font-size: 18px;
+    }
+    .header-left{
+        width: 90%;
+    }
+    .sp-contact{
+        max-width: 400px;
+        margin: 0 auto;
+        clear: both;
+        display: flex;
+        justify-content: space-around;
+    }
+    .nav-bar{
+        padding: 0.5rem 0.5rem;
+    }
+    .sp-tel-btn-wrap, .sp-doc-btn-wrap, .sp-ins-btn-wrap{
+        padding: 4px 8px;
+        background-color:#95bb76;
+        border-radius: 40px;
+        white-space: nowrap;
+    }
+    .sp-tel-btn-wrap i, .sp-doc-btn-wrap i, .sp-ins-btn-wrap i{
+        margin-right: 3px;
+    }
+    /********スライド*************/
+    .carousel-caption {
+        letter-spacing: 22px;
+        right: 39%;
+        top: 8%;
+        z-index: 10;
+        writing-mode: vertical-rl;
+        text-orientation: upright;        
+        text-align: left;
+        color: black;
+        opacity: 0.8;
+        text-shadow: 1px 1px 1px white;
+    }
+    .carousel-caption .lead{
+        line-height: 5.5;
+        text-align: center;
+    }
+    /********アバウト*************/
+    .about-link1-wrap {
+        margin-bottom: 24px;
+    }
+    .about-link1-wrap, .about-link2-wrap, .table td a {
+        display: block;
+    }
+    /*********サービス************/
+    .service .lead {
+        font-size: 18px;
+    }
+    .service{
+        padding-bottom: 22px;        
+    }
+    /********ニュース*************/
+    .news-title-link a{
+        margin-left: 0;
+    }
+    .news-container{
+        flex-wrap: wrap;
+        justify-content: left;
+    }
+    .news .table{
+        width: 100%;
+    }
+    /*********メッセージ************/
+    .msg-title{
+        text-align-last: left;
+    }
+    .msg-photo{
+        margin-bottom: 24px;
+    }
+    /*********アクセス************/
+    .acs-container{
+        border-radius: 0;
+    }
+    .link-box{
+        display: block;
+        float: left;
+        margin-right: 25px;
+    }
+    .box-tel, .box-doc{
+        padding-bottom: 12px;
+        border-bottom: 2px solid #95bb76;
+        border-right: 0;
+    }
+    .contact-txt{
+        text-align: left;
+    }
+    .box-tel, .box-doc, .box-ins{
+        margin: 0 auto 14px;
+        max-width: 350px;
+    }
+    .contact-link-box{
+        display: inline-flex;
+        justify-content: space-between;
+        width: 60%;
+    }
+    /**********フッター***********/
+    .sticky-right{
+        display: none!important;
+    }
+    .effect a:last-of-type{
+        margin-right: 0;
+    }
+    .effect .buttons {
+        justify-content: center;
+    }
+}

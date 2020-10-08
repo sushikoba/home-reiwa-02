@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ホームれいわ</title>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300;400;500&family=Noto+Serif+JP:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kosugi&display=swap" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+   	<link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="responsive.css"> 
+</head>
+<body>   
+<header>
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="header-left">
+            <a class="navbar-brand" href="#">
+                <img src="logo.png" width="170" class="d-inline-block align-top" alt=ホームれいわロゴ>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+          <div class="sp-contact">
+            <div class="sp-tel-btn-wrap">
+              <a class="sp-tel-btn" href="tel:0120-123-456">
+                <i class="fas fa-phone-alt"></i>お電話</a>
+            </div>
+            <div class="sp-doc-btn-wrap">
+              <a class="sp-doc-btn" href="#">
+                <i class="fas fa-file-alt"></i>資料請求</a>
+            </div>
+            <div class="sp-ins-btn-wrap">
+              <a class="sp-ins-btn" href="#">
+                <i class="fas fa-building"></i>見学申し込み</a>
+            </div>
+          </div>
+        </div>
+        <!-------------------------------------  ヘッダーナビ  --------------------------------------------->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownAbout" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                グループ令和について
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">
+                    <img src="hannah-busing-Zyx1bK9mqmA-unsplash.jpg" alt="" class="gray">
+                    私たちの想い<i class="fas fa-angle-double-right"></i></a>
+                   
+                <a class="dropdown-item" href="#">
+                     <img src="christina-wocintechchat-com-rg1y72eKw6o-unsplash.jpg" alt="" class="gray">
+                     会社概要<i class="fas fa-angle-double-right"></i></a>
+              </div>
+            </li>
+            <li class="nav-item dropdown dropdown-service-wrap">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownService" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  サービス
+                </a>
+                <div class="dropdown-menu dropdown-service" aria-labelledby="navbarDropdown">
+                   <div class="dropdown-flex">
+                       <a class="dropdown-item scroll-btn" href="#navRoom">
+                    <img src="paul-postema-nj6AXrnyEac-unsplash.jpg" alt="" class="gray">  
+                     居室一覧<i class="fas fa-angle-double-right"></i></a>
+                      <a class="dropdown-item scroll-btn" href="#navCommon">
+                    <img src="li-yang-a8iCZvtrHpQ-unsplash.jpg" alt=""  class="gray">  
+                    共有スペース<i class="fas fa-angle-double-right"></i></a>
+                  <a class="dropdown-item scroll-btn" href="#navMeal">
+                    <img src="richard-iwaki-OtEkeFbjLkM-unsplash.jpg" alt=""  class="gray">  
+                    お食事<i class="fas fa-angle-double-right"></i></a>
+                    <a class="dropdown-item scroll-btn" href="#navStaff">
+                    <img src="national-cancer-institute-cw2Zn2ZQ9YQ-unsplash.jpg" alt=""  class="gray">  
+                    スタッフ<i class="fas fa-angle-double-right"></i></a>
+                </div>
+                </div>
+              </li>
+            <li class="nav-item">
+                <a class="nav-link scroll-btn" href="#navNews">ニュース</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link scroll-btn" href="#">費用</a>
+            </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">採用情報</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="header-contact" href="#">お問い合わせ</a>
+            </li>
+        </ul>
+        </div>
+      </nav>
+</header>
+        <!-------------------------------------  ヒーロー画像  --------------------------------------------->
+<section class="masthead">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <!-- Slide One -->
+          <div class="carousel-item active" style="background: radial-gradient(ellipse at center, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 32%, rgba(255,255,255,0.65) 100%), url('ELL86_yasasiihikari_TP_V.jpg')">
+            <div class="carousel-caption">
+              <h2 class="display-4">安心のサービス</h2>
+              <p class="lead">24時間看護師常勤</p>
+            </div>
+          </div>
+          <!-- Slide Two -->
+          <div class="carousel-item" style="background-image: radial-gradient(ellipse at center, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 32%, rgba(255,255,255,0.65) 100%), url('055RED20404_TP_V.jpg')">
+            <div class="carousel-caption">
+              <h2 class="display-4">くつろぎの住環境</h2>
+              <p class="lead">緑豊かで静かな住宅街</p>
+            </div>
+          </div>
+          <!-- Slide Three  -->
+          <div class="carousel-item" style="background-image: radial-gradient(ellipse at center, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 32%, rgba(255,255,255,0.65) 100%), url('HOTEL86_washitunoocya20150124135505_TP_V.jpg')">
+            <div class="carousel-caption">
+              <h2 class="display-4">交流・イベント</h2>
+              <p class="lead">毎週金曜日地域イベント開催</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+      </div>
+</section>
+        <!-------------------------------------  アバウト --------------------------------------------->
+ <section class="about">
+     <div class="about-us">
+        <div class="about-us-title"><h2>温かで豊かなシニアライフを</h2></div>
+        <div class="about-text">
+                <p>グループ令和が運営するホームれいわはJQ山本線神野駅近郊の商業施設へのアクセスへも便利な立地で緑に囲まれた閑静な住宅街に2020年オープンの新しい有料老人ホームです。</p>
+                <p>磨かれた温かな介護サービスはもちろん、看護師・医療専門職が24時間サポートさせていただきます。</p>
+                <p>心豊かにお過ごしいただくために地域交流イベントを積極的に開催しています。</p>
+        </div> 
+        <div class="about-links">
+            <div class="about-link1-wrap"><a class="about-link1" href="#">私たちの想い<i class="fas fa-angle-double-right"></i></a></div>
+            <div class="about-link2-wrap"><a class="about-link2" href="#">会社概要<i class="fas fa-angle-double-right"></i></a></div>
+        </div>
+     </div>
+     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f6f6f6" fill-opacity="1" d="M0,256L48,224C96,192,192,128,288,122.7C384,117,480,171,576,181.3C672,192,768,160,864,122.7C960,85,1056,43,1152,42.7C1248,43,1344,85,1392,106.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+</section> 
+        <!-------------------------------------  サービス--------------------------------------------->
+<section class="service" >
+    <div class="container marketing">  
+     <div class="service-title">
+      <h1>ホームれいわの４つの魅力なサービス</h1>
+    </div>
+            <div class="row row-service featurette" id="navRoom">
+              <div class="col-md-7">
+                <h2 class="featurette-heading">
+                  <img class="number-icon" src="logo01.png" alt="1."> ホテルのような素敵な個室</h2>
+                <p class="lead">お洒落で清潔感がありつつ落ち着きを感じられる木目の壁紙を使用した個室でごゆっくりお過ごしいただけます。各個室介護用ベッド、洗面台とトイレ、ソファとテレビ台、チェア、冷蔵庫をご用意しています。</p>
+              </div>
+              <div class="col-md-5">
+                <img src="paul-postema-nj6AXrnyEac-unsplash.jpg">
+              </div>
+            </div>
+            <hr>
+
+            <div class="row row-service featurette" id="navCommon">
+              <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading">
+                  <img class="number-icon" src="logo02.png" alt="2.">屋内共有スペース</h2>
+                <p class="lead">フロントフロアにはホテルのロビーのようなラウンジ、男女別大きな浴槽付き入浴場、リハビリ用ジム、食堂、会議室、中庭でゆったりとした時をお過ごしいただけます。
+                </p>
+              </div>
+              <div class="col-md-5 order-md-1">
+                <img src="li-yang-a8iCZvtrHpQ-unsplash.jpg">
+              </div>
+            </div>
+            <hr>
+
+            <div class="row row-service featurette" id="navMeal">
+              <div class="col-md-7">
+                <h2 class="featurette-heading">
+                  <img class="number-icon" src="logo03.png" alt="3.">こだわりのお食事</h2>
+                <p class="lead">毎食のお食事は管理栄養士の指導のもとシェフチームが腕をふるった料理をご用意しています。栄養バランスよく美味しくお召し上がりいただけます。</p>
+              </div>
+              <div class="col-md-5">
+                <img src="richard-iwaki-OtEkeFbjLkM-unsplash.jpg">
+              </div>
+            </div>
+            <hr>
+
+            <div class="row row-service featurette" id="navStaff">
+                <div class="col-md-7 order-md-2">
+                  <h2 class="featurette-heading">
+                    <img class="number-icon" src="logo04.png" alt="4.">医療と介護のスペシャリスト</h2>
+                  <p class="lead">介護分野に精通した看護師が24時間常勤しているので緊急時の対応もご安心いただけます。機能訓練のスペシャリストがリハビリテーションを支援させていただきます。手厚く上質な専門のケアスタッフが日常生活の支援からおもてなしまでいたします。</p>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <img src="national-cancer-institute-cw2Zn2ZQ9YQ-unsplash.jpg">
+                </div>
+              </div>
+    </div>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffe2e2" fill-opacity="1" d="M0,32L60,58.7C120,85,240,139,360,133.3C480,128,600,64,720,80C840,96,960,192,1080,208C1200,224,1320,160,1380,128L1440,96L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>  
+</section>
+        <!-------------------------------------  ニュース  --------------------------------------------->
+<section class="news" id="navNews">
+  <div class="row row-news featurette">
+    <div class="col-md-4 news-title">
+      <h2 class="featurette-heading">最新情報<br class=br-lg>・イベント</h2>
+      <p class="lead"> <a href="#">一覧を見る<i class="fas fa-angle-double-right"></i></p></a>
+    </div>
+    <div class="col-md-4">
+      <table class="table table-sm table-hover">
+        <tbody>
+        <tr>
+            <td class="date">8/29</td>
+            <td>  <a href="#">落語会・お茶会</a></td>
+          </tr>
+          <tr>
+            <td class="date">8/22</td>
+            <td> <a href="#">お誕生会・たこ焼きパーティー</a></td>
+          </tr>
+          <tr>
+            <td class="date">8/15</td>
+            <td> <a href="#">戦争映画上映会</a></td>
+          </tr>
+          <tr>
+            <td class="date">8/8</td>
+            <td> <a href="#">音楽会</a></td>
+          </tr>
+          <tr>
+            <td class="date">8/1</td>
+          <td> <a href="#">スイカ割り・ゲートボール</a></td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="col-md-4 event-photo">
+    <div class="event-photo01"><img src="chris-lawton-PyRU3x6EJoI-unsplash.jpg" alt=""></div>
+    <div class="event-photo02"><img src="trevor-paxton--L6iU23OPzI-unsplash.jpg" alt=""></div>  </div>
+  </div>
+</section>
+        <!-------------------------------------  ご挨拶  --------------------------------------------->
+<section class="message">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffe2e2" fill-opacity="1" d="M0,32L48,32C96,32,192,32,288,58.7C384,85,480,139,576,149.3C672,160,768,128,864,149.3C960,171,1056,245,1152,240C1248,235,1344,149,1392,106.7L1440,64L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+  <div class="msg-title">
+    <h1>ごあいさつ</h1>
+  </div>
+  <div class="msg-container row row-msg">
+    <div class="msg-photo col-md-4 offset-md-1">
+      <img class="img-fluid" src="message.jpg" alt="">
+    </div>
+    <div class="msg-txt col-md-7">
+      <p>はじめまして。ホームれいわの施設長の緑谷のぼると申します。</p> 
+      <p>ホームれいわでは自立の方から要介護５の全ての方がご利用いただけます。それぞれの介護度に合わせてお手伝いさせていただきます。
+        介護専門の技術を持ち合わせた医療スタッフによる医療処置から日々のおもてなし、こころの健康へのサポートにも力を入れています。
+        より良い質のケアサービスができるようスタッフ一同日々努力しております。</p>
+      <p>お気軽にぜひ一度、見学にお越しください。皆さまにお会いできることを、心より楽しみにしております。</p>
+    </div>
+</div>
+  
+</section>
+       <!-------------------------------------  アクセス  --------------------------------------------->
+<section class="access">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f6f6f6" fill-opacity="1" d="M0,96L48,117.3C96,139,192,181,288,170.7C384,160,480,96,576,106.7C672,117,768,203,864,234.7C960,267,1056,245,1152,229.3C1248,213,1344,203,1392,197.3L1440,192L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+<div class="acs-container">
+      <div class="acs-title">
+        <h2>アクセス</h2>
+      </div>
+  <div class="row row-ad address">
+        <div class="acs-img col-md-6 order-md-2">
+          <img class="img-fluid" src="henry-perks-BJXAxQ1L7dI-unsplash.jpg" alt="">
+        </div>
+        <div class="acs-txt col-md-6 order-md-1">
+            <p> 〒123-456 <br>
+            東京都神野区雄英町1-2-3</p>
+            <div class="map-link-wrap"><a class="map-link" href="#">詳しい地図を見る<i class="fas fa-angle-double-right"></i></a>
+            </div>
+        </div>
+   </div>
+    <div class="contact-txt row">
+      <div class="col-md-4 box-tel">
+         <a class="link-box rounded-circle" href="tel:0120-123-456"><i class="fas fa-phone-alt"></i></a>
+          <h3>0120-123-456<br>
+            <span> 受付時間 9:00～17:00</span>
+          </h3>
+      </div>
+      <div class="col-md-4 box-doc">
+         <a class="link-box rounded-circle" href="#"><i class="fas fa-file-alt"></i></a>
+          <h3>資料請求</h3>
+      </div>
+      <div class="col-md-4 box-ins">
+       <a class="link-box rounded-circle" href="#"><i class="fas fa-building"></i></a>
+          <h3>見学申し込み</h3>
+    </div>
+</div>
+</div>
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f6f6f6" fill-opacity="1" d="M0,96L48,128C96,160,192,224,288,234.7C384,245,480,203,576,170.7C672,139,768,117,864,122.7C960,128,1056,160,1152,170.7C1248,181,1344,171,1392,165.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+
+</section>
+
+        <!-------------------------------------  フッター  --------------------------------------------->
+<footer>
+  <div class="sticky-right">
+     <a href="#" class="doc-right-box">
+     資料請求はこちら<i class="fas fa-caret-right"></i></a>
+      <a href="#" class="ins-right-box">見学申し込みはこちら<i class="fas fa-caret-right"></i></a>
+  </div>
+  <div class="to-top">
+    <a href="#" id="pageTop"><i class="fa fa-chevron-up"></i></a>
+  </div>
+<div class="container footer-container">
+  <div class="group-wrap">
+    <div class="group-title">
+      <h3>グループ令和の施設一覧</h3>
+    </div>
+    <div class="group-areas row">
+      <div class="group col-md-3 tokyo">
+        <h5>東京都</h5>
+        <ul>
+          <li><a class="group-item" href="#">ホームれいわ</a></li>
+          <li><a class="group-item" href="#">クループホームれいわ</a></li>
+          <li><a class="group-item" href="#">リハビリデイれいわ</a></li>
+          <li><a class="group-item" href="#">デイサービスれいわ</a></li>
+          <li><a class="group-item" href="#">介護付きマンションれいわ</a></li>
+        </ul>
+      </div>
+      <div class="group col-md-3 kanto">
+        <h5>関東エリア</h5>
+        <ul>
+          <li><a class="group-item" href="#">ホームれいわよこはま</a></li>
+          <li><a class="group-item" href="#">グループホームれいわ埼玉平</a></li>
+          <li><a class="group-item" href="#">介護付きマンション湘南れいわ</a></li>
+        </ul>
+      </div>
+      <div class="group col-md-3 tohoku">
+        <h5>東北エリア</h5>
+        <ul>
+          <li><a class="group-item" href="#">ホームれいわやまがた</a></li>
+          <li><a class="group-item" href="#">グループホームれいわ福島平</a></li>
+          <li><a class="group-item" href="#">リハビリデイ令和水戸</a></li>
+        </ul>
+      </div>
+      <div class="group col-md-3 tokai">
+        <h5>東海エリア</h5>
+        <ul>
+          <li><a class="group-item" href="#">ホームれいわなごや</a></li>
+          <li><a class="group-item" href="#">グループホームれいわ静岡平</a></li>
+          <li><a class="group-item" href="#">デイサービスれいわ三重</a></li>
+        </ul>
+      </div>
+      <div class="group col-md-3 kansai">
+        <h5>関西</h5>
+        <ul>
+          <li><a class="group-item" href="#">ホームれいわおおさか</a></li>
+          <li><a class="group-item" href="#">グループホームれいわ京都</a></li>
+          <li><a class="group-item" href="#">リハビリデイれいわ滋賀</a></li>
+        </ul>
+      </div>
+      <div class="group col-md-3 kyusyu">
+        <h5>九州</h5>
+        <ul>
+          <li><a class="group-item" href="#">ホームれいわ九州</a></li>
+          <li><a class="group-item" href="#">リハビリデイ博多平</a></li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+          <div class="sns">
+                <div class="effect jaques">
+                      <div class="buttons">
+                        <a href="#" class="fb" title="Join us on Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="#" class="tw" title="Join us on Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="#" class="insta" title="Join us on Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                      </div>
+               </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+<div class="footer-bottom">
+  Copyright © れいわ Co.,Ltd. All Rights Reserved.
+</div>
+</footer>
+
+
+
+
+
+
+        
+
+        
+<script src="https://kit.fontawesome.com/46153b19c3.js" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>

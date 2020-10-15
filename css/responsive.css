@@ -54,6 +54,10 @@
         padding-bottom: 220px;
     }
 /*************ヘッダー***************/
+    .navbar-brand{
+        padding: 5px 15px;
+    }    
+
     .navbar-light .navbar-brand {
         margin-bottom: 0px;
     }
@@ -146,7 +150,7 @@
         margin-bottom: 24px;
         margin-right: 0;
     }
-    .about-link1-wrap, .about-link2-wrap, .table td a {
+    .about-link1-wrap, .about-link2-wrap{
         display: block;
         text-align: center;
     }

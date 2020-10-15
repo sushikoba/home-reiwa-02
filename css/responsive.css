@@ -20,18 +20,22 @@
 
 }
 @media screen and (max-width: 767px) {
+    .about-text p, .about-links,  .service .lead,
+    .table,
+    .news-title a, .msg-txt, .acs-txt p {
+        font-size: 14px;
+    }
     .title{
-        font-size: 26px;
+        font-size: 20px;
     }
     .subtitle{
-        font-size: 20px;
+        font-size: 18px;
         margin: 0 auto 12px;
     }
   .row-service p{
         text-align: center;
-
     }
-    .about-us, .service .row, .service .col-md-7, .acs-container{
+    .about-us, .acs-container{
         padding: 0 15px 8px 15px;
     }
      .about-us, .news-container,
@@ -92,9 +96,11 @@
     }
     .dropdown:hover>.dropdown-menu {
         display: none;
+        margin-bottom: 24px;
     }
     .nav-item{
         font-size: 18px;
+        margin-left: 0;
     }
     .header-left{
         width: 90%;
@@ -138,14 +144,17 @@
     /********アバウト*************/
     .about-link1-wrap {
         margin-bottom: 24px;
+        margin-right: 0;
     }
     .about-link1-wrap, .about-link2-wrap, .table td a {
         display: block;
+        text-align: center;
+    }
+    .about-link1, .about-link2, .news-title-link, .map-link {
+        width: 80%;
+        text-align: center;
     }
     /*********サービス************/
-    .service .lead {
-        font-size: 18px;
-    }
     .service{
         padding-bottom: 22px;        
     }

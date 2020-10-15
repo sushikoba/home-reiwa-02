@@ -1,7 +1,8 @@
 @charset "utf-8";
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Noto+Serif+JP:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap');
 body{
-    font-family: 'Noto Serif JP', serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 300;
      text-align: center;
      color: #333333;
      letter-spacing: 0.46px;
@@ -31,6 +32,7 @@ a:hover, a:focus{
     font-family: 'Noto Sans JP', sans-serif;
 }
 .about-text p, .about-links,
+.service .lead,
 .news-title a, .msg-txt, .acs-txt p{
     line-height: 32px;
     font-size: 18px;
@@ -39,6 +41,7 @@ a:hover, a:focus{
 .about-us, .news-container, .acs-container{
     max-width: 700px; 
     margin: 0 auto;
+    padding: 16px 32px;
 }
 .about-us-title, .about-text, .about-links,
 .row-service, .news,
@@ -59,9 +62,6 @@ a:hover, a:focus{
 section{
     padding-top: 60px;
 }
-.message, .footer-bottom{
-    background-color: #ddeedf;
- }
 /**************************  HEADER  **********************************/
 .dropdown:hover>.dropdown-menu {
     display: block;
@@ -74,6 +74,7 @@ header{
     width: 100%;
     z-index: 100;
     font-size: 14px;
+    font-weight: 400;
 }
 .navbar-light .navbar-brand{
     color: #95bb76!important;
@@ -272,6 +273,7 @@ header{
 }
 .service .row{
     align-items: center;
+    margin: 60px auto;
 }
 
 hr{
@@ -284,10 +286,6 @@ hr{
 .col-md-5 img{
     width: 100%;
     border-radius: 12px;
-}
-.service .lead{
-    letter-spacing: 2px;
-    line-height: 1.7;
 }
 .number-icon{
     color: #95bb76;
@@ -307,7 +305,7 @@ hr{
     padding-bottom: 120px;
 }
 .news-container, .acs-container{
-    padding: 40px 0 40px 15px;
+    padding-top: 40px;
 }
 .news-container{
     display: flex;
@@ -507,4 +505,5 @@ hr{
 .footer-bottom{
     padding: 80px 0 30px 0;
     margin-bottom: 0;
-}
+    background-color: #ddeedf;
+ }

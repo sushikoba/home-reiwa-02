@@ -8,9 +8,6 @@
     .number-icon{
         font-size: 36px;
     }
-    .br-lg{
-         display: block;
-    }
     /**ズーム解除**/
     .nav-item:hover, .about-link1-wrap:hover,
     .about-link2-wrap:hover, .news-title-link:hover, .map-link-wrap:hover,

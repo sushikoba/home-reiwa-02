@@ -19,8 +19,8 @@ a:hover, a:focus{
     margin: 0;
     padding: 0;
 }
-.br-lg{
-    display: none;
+section{
+    padding-top: 60px;
 }
 .title, .subtitle span{
     margin-bottom: 32px;
@@ -37,6 +37,8 @@ a:hover, a:focus{
     letter-spacing: 0.86px;
 }
 .about-us, .news-container, .acs-container{
+    background: #F6f6f6;
+    border-radius:  12px;
     max-width: 700px; 
     margin: 0 auto;
     padding: 16px 32px;
@@ -58,8 +60,16 @@ a:hover, a:focus{
 .table td a{
     display: inline-block;
 }
-section{
-    padding-top: 60px;
+.service .col-md-7,
+.message .col-md-7{
+    padding-top: 0;
+}
+.news-container, .acs-container{
+    padding-top: 40px;
+}
+.news-title h2, .acs-title h2{
+    margin-bottom: 18px;
+    margin-top: 0;
 }
 /**************************  HEADER  **********************************/
 .dropdown:hover>.dropdown-menu {
@@ -250,10 +260,7 @@ header{
     background-size: cover;
     padding-bottom: 120px;
 }
-.about-us, .news-container, .acs-container{
-    background: #F6f6f6;
-    border-radius:  12px;
-}
+
 .about-us{
     border: 2px solid #95bb76;
 }
@@ -274,13 +281,8 @@ header{
     align-items: center;
     margin: 60px auto;
 }
-
 hr{
     border-top: 2px solid #95bb76;
- }
- .service .col-md-7,
- .message .col-md-7{
-     padding-top: 0;
  }
 .col-md-5 img{
     width: 100%;
@@ -303,9 +305,6 @@ hr{
     background-position: top;
     padding-bottom: 120px;
 }
-.news-container, .acs-container{
-    padding-top: 40px;
-}
 .news-container{
     display: flex;
     justify-content: space-between;
@@ -313,10 +312,7 @@ hr{
 .news-title{
     margin-bottom: 16px;
 }
-.news-title h2, .acs-title h2{
-    margin-bottom: 18px;
-    margin-top: 0;
-}
+
  /******** テーブル *********/
 .table{
     font-size: 18px;

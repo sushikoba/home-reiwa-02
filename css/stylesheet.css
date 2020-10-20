@@ -43,7 +43,7 @@ a:hover, a:focus{
 }
 .about-us-title, .about-text, .about-links,
 .row-service, .news,
-.msg-txt, .acs-txt, .group{
+.msg-txt, .acs-txt p, .group{
     text-align: left;
 }
 .about-link1, .about-link2,
